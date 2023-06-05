@@ -1,0 +1,19 @@
+.logo {
+  margin-right: 150px;
+}
+
+.btn-get-started {
+  width: 163px;
+  height: 52px;
+  background: #58BF73;
+  border-radius: 10px;
+}
+
+.btn-login {
+  box-sizing: border-box;
+  width: 112px;
+  height: 52px;
+  border: 1px solid #181F1B;
+  border-radius: 10px;
+  margin-left: 24px;
+}
