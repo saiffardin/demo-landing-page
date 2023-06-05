@@ -1,5 +1,7 @@
 import {Nav, NavDropdown, Navbar} from "react-bootstrap";
 import Logo from '../../assets/Logo.png';
+import {CSS_CLASS_BTN_BG_GREEN, CSS_CLASS_BTN_BG_REGULAR} from "../../utils/consts";
+import CustomButton from "../CustomButton/CustomButton";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -26,8 +28,8 @@ const NavBar = () => {
           </Nav>
 
           <Nav className="ms-auto">
-            <button className="btn-get-started">Get Started</button>
-            <button className="btn-login">Login</button>
+            <CustomButton text="Get Started" cssClass={CSS_CLASS_BTN_BG_GREEN}/>
+            <CustomButton text="Login" cssClass={CSS_CLASS_BTN_BG_REGULAR}/>
           </Nav>
       </Navbar> 
   );

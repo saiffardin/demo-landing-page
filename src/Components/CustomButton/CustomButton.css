@@ -1,0 +1,15 @@
+.btn-green {
+  width: 163px;
+  height: 52px;
+  background: #58BF73;
+  border-radius: 10px;
+}
+
+.btn-regular {
+  box-sizing: border-box;
+  width: 112px;
+  height: 52px;
+  border: 1px solid #181F1B;
+  border-radius: 10px;
+  margin-left: 24px;
+}
