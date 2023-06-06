@@ -1,0 +1,54 @@
+.top-banner {
+  height: 900px;
+  /* background-color: aqua; */
+
+}
+
+.top-banner-left {
+  /* background-color: rgb(214, 153, 153); */
+}
+
+.top-banner-left h1 {
+  width: 701px;
+  height: 259px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 126px;
+  line-height: 144px;
+  color: #181F1B;
+  /* background-color: antiquewhite; */
+
+}
+
+.top-banner-left p {
+  /* position: absolute; */
+  width: 658px;
+  height: 103px;
+  /* left: 120px;
+  top: 510px; */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 158%;
+  /* or 38px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* Text */
+
+  color: #181F1B;
+
+  /* background-color: rgb(226, 180, 123); */
+  opacity: 0.7;
+
+  margin-top: 42px;
+  margin-bottom: 48px;
+
+}
+
+.top-banner-right {}
